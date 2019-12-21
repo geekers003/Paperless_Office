@@ -19,17 +19,25 @@ Repo for Pragyan Hackathon 2k19
  *  Gives an overall picture of the workflow along with performance metrics
 
 
- ## System Design Of a Workflow System ##
+ ## System Design Of our Workflow System ##
   ![alt_text](https://github.com/geekers003/Paperless_Office/blob/master/screenshots/workflow.jpg)
   
   
  ## Paperless_Office ##
  We follow the System Design as shown above . In our very first version of the Paperless_Office - a customizable Workflow       System  we added follwing features :- 
- *  __Grade-1 user__ can see the tasks assigned to him by his manager .
+ *  __Grade-1 user__ can see the tasks assigned to him by his manager  with a fixed deadline by the sender.
  *  __Grade-1 user__ can send documents to his manager for the very first approval. He can also see the approved documents by     his    Grade-2 user (__ususally Manager__),and can see the status of his request in the complete process.
- * For __Garde-2 user__ , he can approve the request of the grade-1 user and this request will eventually send to the senior    level executieve or __Grade-3 user__.
+ * For __Garde-2 user__ , he can approve the request of the grade-1 user within a period of two days otherwise it will be send to next level automatically  and this request will eventually send to the senior    level executieve or __Grade-3 user__.
  * After __approval___ of __top level user__ this document will be digitally signed and again send the Complete Status to the Grade-2 as well as Grade-1 user from where this request was geneated.
- 
+ * users can interact with other users as well and send  message to thier higher level authorities as well.
+ *  user converssation is __totally encrypted__ so its secure between two points.
+
+##  Essential Features that our Worlflow System has ##
+1. Simple to use with one click access to everything .
+2. Access control: Different people have different access needs
+3. Cloud based: Easy access, anywhere, anytime
+4. Transparency: Easily find the information you need, when you need it
+
  ##  Advantages of a Workflow Management System ##
  * __Reduced waste__ and reduced the use of paper.
  * Switch from __single to parallel processing of tasks__.
@@ -40,7 +48,4 @@ Repo for Pragyan Hackathon 2k19
  * Clear definition of those responsible for the tasks
  * Increased collaboration and teamwork
 
-##  Essential Features that a Worlflow System must have ##
-1. Access control: Different people have different access needs
-2. Cloud based: Easy access, anywhere, anytime
-3. Transparency: Easily find the information you need, when you need it
+
